@@ -1,0 +1,52 @@
+{
+    "workflowApiVersion": "1.1",
+    "metaData": {
+       "icon": "images/globe.png",
+       "iconSmall": "images/globesmall.png",
+       "category": "message"
+    },
+    "type": "REST",
+    "lang": {
+       "en-US": {
+           "name": "Send Notification",
+           "description": "Send Notification to Salesforce Users"
+       }
+    },
+    "arguments": {
+        "execute": {
+            "inArguments": [],
+            "outArguments": [],
+            "url": "https://cryptic-sea-46300.herokuapp.com/hello"
+        }
+    },
+    "configurationArguments": {
+       "applicationExtensionKey": "SfConnectSample",
+       "save": {
+           "url": "https://cryptic-sea-46300.herokuapp.com"
+       },
+       "publish": {
+           "url": "https://cryptic-sea-46300.herokuapp.com"
+       },
+       "validate": {
+           "url": "https://cryptic-sea-46300.herokuapp.com"
+       },
+       "stop": {
+           "url": "https://cryptic-sea-46300.herokuapp.com"
+       }
+    },
+    "userInterfaces": {
+       "configModal": {
+           "height": 400,
+           "width": 500,
+           "fullscreen": false
+       }
+    },
+    "schema": {
+        "arguments": {
+            "execute": {
+                "inArguments": [],
+                "outArguments": []
+            }
+        }
+    }
+}
